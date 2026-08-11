@@ -32,7 +32,6 @@ export default function Login() {
         <label>Mật khẩu</label>
         <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
         <button>Đăng nhập</button>
-        <small>Demo: admin@demo.com / 123456</small>
       </form>
     </div>
   );
